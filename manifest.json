@@ -1,0 +1,25 @@
+{
+    "name": "AIR Percentage for Twitter",
+    "version": "1.0",
+    "description": "Shows the AIR (Ignore) Percentage for tweets",
+    "manifest_version": 2,
+    "icons": {
+        "16": "./assets/16.png",
+        "32": "./assets/32.png",
+        "48": "./assets/48.png",
+        "256": "./assets/256.png",
+        "512": "./assets/512.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*"
+            ],
+            "all_frames": true,
+            "js": [
+                "index.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
