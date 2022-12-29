@@ -1,8 +1,8 @@
 {
     "name": "AIR Percentage for Twitter",
-    "version": "1.1",
+    "version": "1.0",
     "description": "Shows the AIR (Ignore) Percentage for tweets",
-    "manifest_version": 3,
+    "manifest_version": 2,
     "icons": {
         "16": "./assets/16.png",
         "32": "./assets/32.png",
@@ -21,11 +21,5 @@
             ],
             "run_at": "document_end"
         }
-    ],
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "{c1cb254d-9cba-4d81-ad5c-5d189e37c099}",
-            "strict_min_version": "42.0"
-        }
-    }
+    ]
 }
