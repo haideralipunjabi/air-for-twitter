@@ -16,3 +16,5 @@ Maintained by [Haider Ali Punjabi](https://twitter.com/HAliPunjabi)
 ### How to install on Firefox
 
 [Download it on the Firefox Browser Extensions page](https://addons.mozilla.org/en-GB/firefox/addon/air-percentage-for-twitter/)
+
+### [Support it on Product Hunt](https://www.producthunt.com/posts/air-percentage-for-twitter)
